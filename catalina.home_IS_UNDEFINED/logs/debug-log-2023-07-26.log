@@ -1,0 +1,594 @@
+16:13:33.277 [background-preinit] DEBUG ########## o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+16:13:33.324 [background-preinit] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+16:13:33.325 [background-preinit] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+16:13:33.325 [background-preinit] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+16:13:33.326 [background-preinit] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+16:13:33.326 [background-preinit] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+16:13:33.345 [restartedMain] INFO  ########## com.vedagram.Application - Starting Application on Winston with PID 4844 (D:\Britto\WS_NEW\vedagram\target\classes started by winst in D:\Britto\WS_NEW\vedagram)
+16:13:33.346 [restartedMain] DEBUG ########## com.vedagram.Application - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+16:13:33.347 [restartedMain] INFO  ########## com.vedagram.Application - No active profile set, falling back to default profiles: default
+16:13:36.280 [restartedMain] INFO  ########## o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+16:13:36.300 [restartedMain] INFO  ########## o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:13:36.300 [restartedMain] INFO  ########## o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+16:13:36.316 [localhost-startStop-1] INFO  ########## o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_331\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_331\jre\bin;D:/Britto/SETUP/sts-4.18.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;D:/Britto/SETUP/sts-4.18.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\winst\AppData\Local\Microsoft\WindowsApps;C:\Users\winst\AppData\Local\GitHubDesktop\bin;C:\Users\winst\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winst\AppData\Roaming\npm;D:\Britto\SETUP\sts-4.18.1.RELEASE;;.]
+16:13:36.644 [localhost-startStop-1] INFO  ########## org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16:13:36.650 [localhost-startStop-1] INFO  ########## o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:13:39.802 [restartedMain] DEBUG ########## org.apache.commons.digester.Digester - register('-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN', 'jar:file:/C:/Users/winst/.m2/repository/org/apache/tiles/tiles-core/3.0.5/tiles-core-3.0.5.jar!/org/apache/tiles/resources/tiles-config_3_0.dtd'
+16:13:39.829 [restartedMain] INFO  ########## org.apache.tiles.access.TilesAccess - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+16:13:39.898 [restartedMain] DEBUG ########## o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+16:13:39.899 [restartedMain] DEBUG ########## o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+16:13:39.907 [restartedMain] DEBUG ########## o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+16:13:39.908 [restartedMain] DEBUG ########## o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+16:13:39.909 [restartedMain] DEBUG ########## o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+16:13:39.910 [restartedMain] DEBUG ########## o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+16:13:39.911 [restartedMain] DEBUG ########## o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+16:13:39.911 [restartedMain] DEBUG ########## o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+16:13:39.913 [restartedMain] DEBUG ########## o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+16:13:39.914 [restartedMain] DEBUG ########## o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+16:13:39.914 [restartedMain] DEBUG ########## o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+16:13:39.918 [restartedMain] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+16:13:39.918 [restartedMain] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+16:13:39.918 [restartedMain] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+16:13:39.919 [restartedMain] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+16:13:39.919 [restartedMain] DEBUG ########## o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+16:13:41.823 [restartedMain] INFO  ########## o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+16:13:41.839 [restartedMain] INFO  ########## o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:13:41.880 [restartedMain] INFO  ########## com.vedagram.Application - Started Application in 9.059 seconds (JVM running for 10.475)
+16:13:42.948 [RMI TCP Connection(3)-127.0.0.1] INFO  ########## o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:14:18.444 [http-nio-8090-exec-3] DEBUG ########## c.v.config.JwtAuthenticationFilter - External system API -->X-Yelo-Token
+16:14:18.871 [http-nio-8090-exec-2] DEBUG ########## c.v.config.JwtAuthenticationFilter - External system API -->X-Yelo-Token
+16:15:00.630 [pool-2-thread-1] DEBUG ########## o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+16:15:00.682 [pool-2-thread-1] DEBUG ########## o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+16:15:00.687 [pool-2-thread-1] DEBUG ########## o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://groupnpay.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+16:15:00.712 [pool-2-thread-1] DEBUG ########## o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://groupnpay.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+16:15:00.720 [pool-2-thread-1] DEBUG ########## o.a.h.impl.execchain.MainClientExec - Opening connection {s}->https://groupnpay.com:443
+16:15:00.927 [pool-2-thread-1] DEBUG ########## o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to groupnpay.com/142.93.221.190:443
+16:15:00.929 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory - Connecting socket to groupnpay.com/142.93.221.190:443 with timeout 0
+16:15:01.042 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.2]
+16:15:01.044 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16:15:01.047 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory - Starting handshake
+16:15:01.522 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory - Secure session established
+16:15:01.523 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+16:15:01.523 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+16:15:01.523 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory -  peer principal: CN=groupnpay.com
+16:15:01.524 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory -  peer alternative names: [groupnpay.com, www.groupnpay.com]
+16:15:01.524 [pool-2-thread-1] DEBUG ########## o.a.h.c.s.SSLConnectionSocketFactory -  issuer principal: CN=R3, O=Let's Encrypt, C=US
+16:15:01.530 [pool-2-thread-1] DEBUG ########## o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 192.168.2.68:58704<->142.93.221.190:443
+16:15:01.532 [pool-2-thread-1] DEBUG ########## o.a.h.impl.execchain.MainClientExec - Executing request POST /vedagram_pd/veda/getDeliveryStatus HTTP/1.1
+16:15:01.532 [pool-2-thread-1] DEBUG ########## o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+16:15:01.536 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> POST /vedagram_pd/veda/getDeliveryStatus HTTP/1.1
+16:15:01.536 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json
+16:15:01.537 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NDI0NjE1MDQ5IiwibW9iaWxlTnVtYmVyIjoiNDQyNDYxNTA0OSIsInVzZXJJRCI6IjVkZjBjZGM3MGE5NzVhMjU0NWYyZDRhZSIsInJvbGUiOiJST0xFX1VTRVIiLCJpYXQiOjE1NzYwNjI2MzV9.eB8uiuyzC5HMthGuHfdCdVbKqusHWNDn_C_JMa_0x8E
+16:15:01.540 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> Content-Length: 935
+16:15:01.540 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> Host: groupnpay.com
+16:15:01.540 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+16:15:01.540 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_331)
+16:15:01.541 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16:15:01.541 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "POST /vedagram_pd/veda/getDeliveryStatus HTTP/1.1[\r][\n]"
+16:15:01.541 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+16:15:01.541 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NDI0NjE1MDQ5IiwibW9iaWxlTnVtYmVyIjoiNDQyNDYxNTA0OSIsInVzZXJJRCI6IjVkZjBjZGM3MGE5NzVhMjU0NWYyZDRhZSIsInJvbGUiOiJST0xFX1VTRVIiLCJpYXQiOjE1NzYwNjI2MzV9.eB8uiuyzC5HMthGuHfdCdVbKqusHWNDn_C_JMa_0x8E[\r][\n]"
+16:15:01.543 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "Content-Length: 935[\r][\n]"
+16:15:01.544 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "Host: groupnpay.com[\r][\n]"
+16:15:01.544 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16:15:01.545 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_331)[\r][\n]"
+16:15:01.545 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:15:01.545 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+16:15:01.546 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 >> "{"requestStatusDtos":[{"awbNumber":"1031671"},{"awbNumber":"1032993"},{"awbNumber":"1032991"},{"awbNumber":"1032990"},{"awbNumber":"1033026"},{"awbNumber":"1031815"},{"awbNumber":"1031817"},{"awbNumber":"1031820"},{"awbNumber":"1031828"},{"awbNumber":"1031824"},{"awbNumber":"1031830"},{"awbNumber":"1031852"},{"awbNumber":"1032984"},{"awbNumber":"1032985"},{"awbNumber":"1032955"},{"awbNumber":"1032982"},{"awbNumber":"1032980"},{"awbNumber":"1032981"},{"awbNumber":"1032987"},{"awbNumber":"1032994"},{"awbNumber":"1032992"},{"awbNumber":"1032998"},{"awbNumber":"1033003"},{"awbNumber":"1033001"},{"awbNumber":"1033002"},{"awbNumber":"1033004"},{"awbNumber":"1033007"},{"awbNumber":"1033006"},{"awbNumber":"1033005"},{"awbNumber":"1033018"},{"awbNumber":"1033014"},{"awbNumber":"1033027"},{"awbNumber":"1033012"},{"awbNumber":"1033010"},{"awbNumber":"1033017"},{"awbNumber":"1033022"},{"awbNumber":"1033020"},{"awbNumber":"1033008"}]}"
+16:15:01.710 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+16:15:01.711 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.18.0 (Ubuntu)[\r][\n]"
+16:15:01.711 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Date: Wed, 26 Jul 2023 10:45:03 GMT[\r][\n]"
+16:15:01.712 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+16:15:01.712 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+16:15:01.713 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+16:15:01.713 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Set-Cookie: JSESSIONID=0ABF8AEC52E86F3CFD77BE97DA152ED7; Path=/vedagram_pd; HttpOnly[\r][\n]"
+16:15:01.713 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+16:15:01.716 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16:15:01.717 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+16:15:01.718 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+16:15:01.718 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "Expires: 0[\r][\n]"
+16:15:01.719 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: DENY[\r][\n]"
+16:15:01.720 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+16:15:01.720 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "74c[\r][\n]"
+16:15:01.720 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "{"requestStatusDtos":[{"awbNumber":"1031671","status":"DELIVERED"},{"awbNumber":"1031815","status":"DELIVERED"},{"awbNumber":"1031817","status":"DELIVERED"},{"awbNumber":"1031820","status":"DELIVERED"},{"awbNumber":"1031824","status":"CANCEL"},{"awbNumber":"1031828","status":"DELIVERED"},{"awbNumber":"1031830","status":"DELIVERED"},{"awbNumber":"1031852","status":"DELIVERED"},{"awbNumber":"1031815","status":"OPEN"},{"awbNumber":"1031817","status":"OPEN"},{"awbNumber":"1031820","status":"OPEN"},{"awbNumber":"1031824","status":"OPEN"},{"awbNumber":"1031828","status":"OPEN"},{"awbNumber":"1031830","status":"OPEN"},{"awbNumber":"1032955","status":"OPEN"},{"awbNumber":"1032955","status":"OPEN"},{"awbNumber":"1032992","status":"ASSIGNED"},{"awbNumber":"1033014","status":"PICKEDUP"},{"awbNumber":"1032980","status":"OPEN"},{"awbNumber":"1032981","status":"OPEN"},{"awbNumber":"1032982","status":"OPEN"},{"awbNumber":"1032984","status":"OPEN"},{"awbNumber":"1032985","status":"OPEN"},{"awbNumber":"1032987","status":"OPEN"},{"awbNumber":"1032990","status":"OPEN"},{"awbNumber":"1032991","status":"OPEN"},{"awbNumber":"1032993","status":"OPEN"},{"awbNumber":"1032994","status":"OPEN"},{"awbNumber":"1032998","status":"OPEN"},{"awbNumber":"1033001","status":"OPEN"},{"awbNumber":"1033002","status":"OPEN"},{"awbNumber":"1033003","status":"OPEN"},{"awbNumber":"1033004","status":"OPEN"},{"awbNumber":"1033005","status":"OPEN"},{"awbNumber":"1033006","status":"OPEN"},{"awbNumber":"1033007","status":"OPEN"},{"awbNumber":"1033008","status":"OPEN"},{"awbNumber":"1033010","status":"OPEN"},{"awbNumber":"1033012","status":"OPEN"},{"awbNumber":"1033017","status":"OPEN"},{"awbNumber":"1033018","status":"OPEN"},{"awbNumber":"1033020","status":"OPEN"},{"awbNumber":"1033022","status":"OPEN"},{"awbNumber":"1033026","status":"OPEN"},{"awbNumber":"1033027","status":"OPEN"}]}[\r][\n]"
+16:15:01.728 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+16:15:01.728 [pool-2-thread-1] DEBUG ########## org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+16:15:01.733 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+16:15:01.733 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Server: nginx/1.18.0 (Ubuntu)
+16:15:01.733 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Date: Wed, 26 Jul 2023 10:45:03 GMT
+16:15:01.733 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+16:15:01.734 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+16:15:01.734 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+16:15:01.734 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Set-Cookie: JSESSIONID=0ABF8AEC52E86F3CFD77BE97DA152ED7; Path=/vedagram_pd; HttpOnly
+16:15:01.734 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << X-Content-Type-Options: nosniff
+16:15:01.734 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16:15:01.734 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+16:15:01.734 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Pragma: no-cache
+16:15:01.735 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << Expires: 0
+16:15:01.735 [pool-2-thread-1] DEBUG ########## org.apache.http.headers - http-outgoing-0 << X-Frame-Options: DENY
+16:15:01.745 [pool-2-thread-1] DEBUG ########## o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+16:15:01.752 [pool-2-thread-1] DEBUG ########## o.a.h.c.p.ResponseProcessCookies - Cookie accepted [JSESSIONID="0ABF8AEC52E86F3CFD77BE97DA152ED7", version:0, domain:groupnpay.com, path:/vedagram_pd, expiry:null]
+16:15:01.754 [pool-2-thread-1] DEBUG ########## o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://groupnpay.com:443] can be kept alive indefinitely
+16:15:01.755 [pool-2-thread-1] DEBUG ########## o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://groupnpay.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+16:15:01.755 [pool-2-thread-1] DEBUG ########## o.a.h.impl.execchain.MainClientExec - Cancelling request execution
+16:15:45.725 [http-nio-8090-exec-1] DEBUG ########## c.v.config.JwtAuthenticationFilter - External system API -->X-Yelo-Token
+16:17:26.614 [Finalizer] DEBUG ########## o.a.h.i.c.PoolingHttpClientConnectionManager - Connection manager is shutting down
+16:17:26.615 [Finalizer] DEBUG ########## o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+16:17:26.616 [Finalizer] DEBUG ########## o.a.h.i.c.PoolingHttpClientConnectionManager - Connection manager shut down
+16:18:19.649 [http-nio-8090-exec-10] DEBUG ########## c.v.config.JwtAuthenticationFilter - External system API -->X-Yelo-Token
+16:18:22.766 [http-nio-8090-exec-8] DEBUG ########## c.v.config.JwtAuthenticationFilter - External system API -->X-Yelo-Token
+16:18:22.784 [http-nio-8090-exec-4] DEBUG ########## c.v.config.JwtAuthenticationFilter - External system API -->X-Yelo-Token
+16:18:22.841 [http-nio-8090-exec-2] DEBUG ########## c.v.config.JwtAuthenticationFilter - User ID -->62fe2ea9fbdafa697970170d,9600305791
+16:18:22.879 [http-nio-8090-exec-5] DEBUG ########## c.v.config.JwtAuthenticationFilter - User ID -->62fe2ea9fbdafa697970170d,9600305791
+16:18:25.429 [http-nio-8090-exec-7] DEBUG ########## c.v.config.JwtAuthenticationFilter - User ID -->62fe2ea9fbdafa697970170d,9600305791
+16:18:25.436 [http-nio-8090-exec-10] DEBUG ########## c.v.config.JwtAuthenticationFilter - User ID -->62fe2ea9fbdafa697970170d,9600305791
+16:18:25.672 [http-nio-8090-exec-7] ERROR ####com.vedagram.config.PrincipalDetails@2a8b7d0c###5655780ef67146adba50693e21db374b### c.v.s.u.RestResponseEntityExceptionHandler - Serious error
+java.lang.IllegalArgumentException: Source must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:193)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:654)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:600)
+	at com.vedagram.admin.adm.AdminServiceImpl.getAllOrdersForGrammerce(AdminServiceImpl.java:619)
+	at com.vedagram.admin.adm.AdminServiceImpl$$FastClassBySpringCGLIB$$b6c748e7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.vedagram.admin.adm.AdminServiceImpl$$EnhancerBySpringCGLIB$$a94a7bd2.getAllOrdersForGrammerce(<generated>)
+	at com.vedagram.admin.adm.AdminController.getAllGrammerceOrders(AdminController.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:246)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.vedagram.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:82)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+16:18:25.679 [http-nio-8090-exec-7] WARN  ####com.vedagram.config.PrincipalDetails@2a8b7d0c###5655780ef67146adba50693e21db374b### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:18:25.679 [http-nio-8090-exec-7] WARN  ####com.vedagram.config.PrincipalDetails@2a8b7d0c###5655780ef67146adba50693e21db374b### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:18:25.683 [http-nio-8090-exec-10] ERROR ####com.vedagram.config.PrincipalDetails@167453d3###b59d4d1aee0a4579bc6c2d46077d1fc8### c.v.s.u.RestResponseEntityExceptionHandler - Serious error
+java.lang.IllegalArgumentException: Source must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:193)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:654)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:600)
+	at com.vedagram.admin.adm.AdminServiceImpl.getAllOrdersForGrammerce(AdminServiceImpl.java:619)
+	at com.vedagram.admin.adm.AdminServiceImpl$$FastClassBySpringCGLIB$$b6c748e7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.vedagram.admin.adm.AdminServiceImpl$$EnhancerBySpringCGLIB$$a94a7bd2.getAllOrdersForGrammerce(<generated>)
+	at com.vedagram.admin.adm.AdminController.getAllGrammerceOrders(AdminController.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:246)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.vedagram.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:82)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+16:18:25.684 [http-nio-8090-exec-10] WARN  ####com.vedagram.config.PrincipalDetails@167453d3###b59d4d1aee0a4579bc6c2d46077d1fc8### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:18:25.684 [http-nio-8090-exec-10] WARN  ####com.vedagram.config.PrincipalDetails@167453d3###b59d4d1aee0a4579bc6c2d46077d1fc8### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:18:55.741 [http-nio-8090-exec-3] DEBUG ########## c.v.config.JwtAuthenticationFilter - User ID -->62fe2ea9fbdafa697970170d,9600305791
+16:18:55.741 [http-nio-8090-exec-9] DEBUG ########## c.v.config.JwtAuthenticationFilter - User ID -->62fe2ea9fbdafa697970170d,9600305791
+16:18:55.965 [http-nio-8090-exec-3] ERROR ####com.vedagram.config.PrincipalDetails@235e8459###e7592cdd5f194b5885883564711c92ff### c.v.s.u.RestResponseEntityExceptionHandler - Serious error
+java.lang.IllegalArgumentException: Source must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:193)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:654)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:600)
+	at com.vedagram.admin.adm.AdminServiceImpl.getAllOrdersForGrammerce(AdminServiceImpl.java:619)
+	at com.vedagram.admin.adm.AdminServiceImpl$$FastClassBySpringCGLIB$$b6c748e7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.vedagram.admin.adm.AdminServiceImpl$$EnhancerBySpringCGLIB$$a94a7bd2.getAllOrdersForGrammerce(<generated>)
+	at com.vedagram.admin.adm.AdminController.getAllGrammerceOrders(AdminController.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:246)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.vedagram.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:82)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+16:18:55.966 [http-nio-8090-exec-9] ERROR ####com.vedagram.config.PrincipalDetails@412f21c5###688a51b4719748e48c525708b5776e50### c.v.s.u.RestResponseEntityExceptionHandler - Serious error
+java.lang.IllegalArgumentException: Source must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:193)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:654)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:600)
+	at com.vedagram.admin.adm.AdminServiceImpl.getAllOrdersForGrammerce(AdminServiceImpl.java:619)
+	at com.vedagram.admin.adm.AdminServiceImpl$$FastClassBySpringCGLIB$$b6c748e7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.vedagram.admin.adm.AdminServiceImpl$$EnhancerBySpringCGLIB$$a94a7bd2.getAllOrdersForGrammerce(<generated>)
+	at com.vedagram.admin.adm.AdminController.getAllGrammerceOrders(AdminController.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:246)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.vedagram.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:82)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+16:18:55.967 [http-nio-8090-exec-3] WARN  ####com.vedagram.config.PrincipalDetails@235e8459###e7592cdd5f194b5885883564711c92ff### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:18:55.967 [http-nio-8090-exec-3] WARN  ####com.vedagram.config.PrincipalDetails@235e8459###e7592cdd5f194b5885883564711c92ff### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:18:55.969 [http-nio-8090-exec-9] WARN  ####com.vedagram.config.PrincipalDetails@412f21c5###688a51b4719748e48c525708b5776e50### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:18:55.969 [http-nio-8090-exec-9] WARN  ####com.vedagram.config.PrincipalDetails@412f21c5###688a51b4719748e48c525708b5776e50### o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Source must not be null
+16:19:28.534 [Thread-9] INFO  ########## org.apache.tiles.access.TilesAccess - Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext

@@ -1,0 +1,179 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="mainLayout" template="/pages/layout.jsp">
+		<put-attribute name="header" value="/pages/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/pages/footer.jsp" />
+	</definition>
+	<definition name="subLayout" template="/pages/layout.jsp">
+		<put-attribute name="header" value="/pages/header_home.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	<definition name="home" extends="subLayout">
+		<put-attribute name="body" value="/pages/home.jsp" />
+	</definition>
+	<definition name="homeold" extends="mainLayout">
+	<put-attribute name="body" value="/pages/home_old.jsp" />
+	</definition>
+	
+	<definition name="about" extends="mainLayout">
+		<put-attribute name="body" value="/pages/about.jsp" />
+	</definition>
+	
+	<definition name="contact" extends="mainLayout">
+		<put-attribute name="body" value="/pages/contact.jsp" />
+	</definition>
+	
+	<definition name="partners" extends="mainLayout">
+		<put-attribute name="body" value="/pages/partners.jsp" />
+	</definition>
+	
+	<definition name="privacypolicy" extends="mainLayout">
+		<put-attribute name="body" value="/pages/privacypolicy.jsp" />
+	</definition>
+	<definition name="tnc" extends="mainLayout">
+		<put-attribute name="body" value="/pages/tnc.jsp" />
+	</definition>
+	<definition name="useradm" extends="mainLayout">
+		<put-attribute name="body" value="/pages/useradm.jsp" />
+	</definition>
+	<definition name="delvnonemp" extends="mainLayout">
+		<put-attribute name="body" value="/pages/delvnonemp.jsp" />
+	</definition>
+	<definition name="delvemp" extends="mainLayout">
+		<put-attribute name="body" value="/pages/delvemp.jsp" />
+	</definition>
+	<definition name="ven" extends="mainLayout">
+		<put-attribute name="body" value="/pages/ven.jsp" />
+	</definition>
+	<definition name="userdet" extends="mainLayout">
+		<put-attribute name="body" value="/pages/userdet.jsp" />
+	</definition>
+	<definition name="supmnu" extends="mainLayout">
+		<put-attribute name="body" value="/pages/supmnu.jsp" />
+	</definition>
+	<definition name="apisup" extends="mainLayout">
+		<put-attribute name="body" value="/pages/apisup.jsp" />
+	</definition>
+		<definition name="awbtrack" extends="mainLayout">
+		<put-attribute name="body" value="/pages/awbtrack.jsp" />
+		</definition>
+	<definition name="ratecard" extends="mainLayout">
+		<put-attribute name="body" value="/pages/ratecard.jsp" />
+	</definition>
+		<definition name="ofrmgmt" extends="mainLayout">
+		<put-attribute name="body" value="/pages/ofrmgmt.jsp" />
+	</definition>
+	<definition name="taxdetails" extends="mainLayout">
+		<put-attribute name="body" value="/pages/taxdetails.jsp" />
+	</definition>
+	
+	<definition name="paymentdetails" extends="mainLayout">
+		<put-attribute name="body" value="/pages/paymentdetails.jsp" />
+	</definition>
+	
+	<definition name="delvpaymentdetails" extends="mainLayout">
+		<put-attribute name="body" value="/pages/delvpaymentdetails.jsp" />
+	</definition>
+	
+	<definition name="delvtaxreport" extends="mainLayout">
+		<put-attribute name="body" value="/pages/delvtaxreport.jsp" />
+	</definition>
+	
+	<definition name="services" extends="mainLayout">
+		<put-attribute name="body" value="/pages/services.jsp" />
+	</definition>
+	<definition name="senderrequest" extends="mainLayout">
+		<put-attribute name="body" value="/pages/senderrequest.jsp" />
+	</definition>
+	<definition name="register" extends="mainLayout">
+		<put-attribute name="body" value="/pages/vendorreg.jsp" />
+	</definition>
+	
+	<definition name="login" extends="mainLayout">
+		<put-attribute name="body" value="/pages/login.jsp" />
+	</definition>
+	
+	<definition name="extpayresstate" extends="mainLayout">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/pages/extpayresstate.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	
+	<!-- For Admin -->
+	<definition name="tracklist" extends="mainLayout">
+		<put-attribute name="body" value="/pages/tracklist.jsp" />
+	</definition>
+	
+	<definition name="mdashboard" extends="mainLayout">
+		<put-attribute name="body" value="/pages/mdashboard.jsp" />
+	</definition>
+	
+	<!-- For Vendor -->
+	<definition name="vDashboard" extends="mainLayout">
+		<put-attribute name="body" value="/pages/vdashboard.jsp" />
+	</definition>
+	
+	<definition name="requestReport" extends="mainLayout">
+		<put-attribute name="body" value="/pages/tracklist.jsp" />
+	</definition>
+	
+	<definition name="vendorreport" extends="mainLayout">
+		<put-attribute name="body" value="/pages/vendorreport.jsp" />
+	</definition>
+
+	<definition name="myprofile" extends="mainLayout">
+		<put-attribute name="body" value="/pages/myprofile.jsp" />
+	</definition>
+	
+	<definition name="spmdUpload" extends="mainLayout">
+		<put-attribute name="body" value="/pages/spmdUpload.jsp" />
+	</definition>
+	
+	<definition name="uploadRequest" extends="mainLayout">
+		<put-attribute name="body" value="/pages/uploadRequest.jsp" />
+	</definition>
+	
+	<definition name="faq" extends="mainLayout">
+		<put-attribute name="body" value="/pages/faq.jsp" />
+	</definition>
+	
+	<definition name="vReportDashboard" extends="mainLayout">
+		<put-attribute name="body" value="/pages/vreportdashboard.jsp" />
+	</definition>
+	
+	<definition name="admindashboard" extends="mainLayout">
+		<put-attribute name="body" value="/pages/settlement.jsp" />
+	</definition>
+	<definition name="packagemgmt" extends="mainLayout">
+		<put-attribute name="body" value="/pages/packagemgmt.jsp" />
+	</definition>
+	<definition name="sdetails" extends="mainLayout">
+		<put-attribute name="body" value="/pages/settlement.jsp" />
+	</definition>
+	<definition name="paysettlesummary" extends="mainLayout">
+		<put-attribute name="body" value="/pages/paysettlesummary.jsp" />
+	</definition>
+	<definition name="paystatus" extends="mainLayout">
+		<put-attribute name="body" value="/pages/paystatus.jsp" />
+	</definition>
+	
+	<definition name="sendPackage" extends="mainLayout">
+		<put-attribute name="body" value="/pages/sendpackage.jsp" />
+	</definition>
+	<definition name="trackPackage" extends="mainLayout">
+		<put-attribute name="body" value="/pages/trackpackage.jsp" />
+	</definition>
+	<definition name="schedules" extends="mainLayout">
+		<put-attribute name="body" value="/pages/schedules.jsp" />
+	</definition>
+	<definition name="manageFavourites" extends="mainLayout">
+		<put-attribute name="body" value="/pages/managefavourites.jsp" />
+	</definition>
+	
+</tiles-definitions>

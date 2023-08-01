@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<style>
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(document.body).on('click', '#switchLoginBtn', function() {
+		$.ajax({
+			url : $('#contextPath').val() + '/adm/switchToUser?usrid='+$('#userNameSrchSelLogin').find('option:selected').attr('usr-id'),
+			contentType : "application/json",
+			method : 'POST',
+			data: {},
+			success : function(data) {
+				if (data != null) {
+					if (data.startsWith("SUCCESS")) {
+						var viewName = data.split(":")[1];
+						window.location = $('#contextPath').val() + '/' + viewName;
+					} else {
+						var errMsg = data.split(":")[1];
+						alert(errMsg);
+					}
+				}
+				$('.loadCls').hide();
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+	<div>Connecting Account...</div>
+</body>
+</html>

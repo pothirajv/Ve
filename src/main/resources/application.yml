@@ -1,0 +1,14 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /
+logging:
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+spring:
+  jpa:
+    show-sql: true
+  messages:
+    basename: i18n/messages, i18n/messages_zh

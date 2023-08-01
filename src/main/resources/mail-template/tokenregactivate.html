@@ -1,0 +1,73 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<div style="font-size: 16px;font-weight: bolder">
+Hello Team,
+</div>
+<br>
+
+<br>
+<form th:each="prod: ${registerDetails}">
+	<div class="row">
+	
+							<div class="col-md-6">
+									<div class="form-group">
+										<p>First Name</p>
+										<input type="text" th:value="${prod.firstName}"/> <br>
+										 <br>
+									</div>
+								</div>
+								
+							<div class="col-md-6">
+									<div class="form-group">
+										<p>Last Name</p>
+										<input type="text" th:value=${prod.lastName}/> <br>
+										 <br>
+									</div>
+								</div>
+								
+								
+							<div class="col-md-6">
+									<div class="form-group">
+										<p>Business Name</p>
+										<input type="text" th:value="${prod.vendorGroupName}"/> <br>
+										 <br>
+									</div>
+								</div>
+								
+								
+							<div class="col-md-6">
+									<div class="form-group">
+										<p>Address</p>
+										<input type="text" th:value="${prod.houseNo}"/> <br>
+										 <br>
+									</div>
+								</div>
+								
+								
+							<div class="col-md-6">
+									<div class="form-group">
+										<p>Mobile No </p>
+										<input type="text" th:value="${prod.mobileNumber}"/> <br>
+										 <br>
+									</div>
+								</div>
+								
+								
+							<div class="col-md-6">
+									<div class="form-group">
+										<p>Email Id</p>
+										<input type="text" th:value="${prod.email}"/> <br>
+										 <br>
+									</div>
+								</div>
+								
+								</div></form>
+<br>
+<b>To Activate the user for token generation kindly login with your Admin credentials and click this url<a href="pickdrop.com/adm/ven">link</a></b>
+<div>
+Regards
+</div>
+<span style="color: #464e97;font-size: 1.6rem ;font-weight:bolder">Pick</span><span style="color: #52ef3f;font-size: 1.6rem ;font-weight:bolder" >Drop</span>

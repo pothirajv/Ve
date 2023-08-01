@@ -1,0 +1,66 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<div style="font-size: 16px;font-weight: bolder">
+Hello Team,
+</div>
+<br>
+<div>
+Please find below the <a th:text="${location}"></a> vendor settlement details for the week starting <a style="font-size: 14px;font-weight: bold" th:text="${startDate}"></a> till  <a style="font-size: 14px;font-weight: bold" th:text="${endDate}"></a>
+</div>
+<br>
+<div>
+Total number of deliveries for vendors: <span style="font-size: 13px;font-weight: bolder" th:text="${totalDeliveries}"></span>
+</div>
+<br>
+<div>
+Total delivery Charges with GST : <span style="font-size: 13px;font-weight: bolder" th:text="${totalVendorDeliveryCharge}"></span>
+</div>
+<br>
+<div>
+Total Invoice Amount with service Charge and GST: <span style="font-size: 13px;font-weight: bolder" th:text="${totalVendorInvoiceAmount}"></span>
+</div>
+<br>
+<div>
+Total Amount to be be settled to vendors: <span style="font-size: 13px;font-weight: bolder" th:text="${totalVendorCreditAmount}"></span>
+</div>
+<br>
+<div>
+Total Amount pending from vendors: <span style="font-size: 13px;font-weight: bolder" th:text="${totalVendorDebitAmount}"></span>
+</div>
+<br>
+<table style="border: 1px solid black;">
+  <thead >
+    <tr>
+      <th  style="border: 1px solid black;border-collapse: collapse;" >S.No</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;" >Vendor Name</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;" >Owner Name</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;" >City</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;">Number of Deliveries</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;">Total Delivery Charges</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;">Total Invoice Amount with Service Charge</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;">Total Amount to be Settled to vendor</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;">Total amount pending from Vendor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr th:each="prod: ${deliveryDetails}">
+      <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prodStat.index}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.firstName}"></td>
+       <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.lastName}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.city}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.totalCount}"></td>
+       <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.deliveryChargeIncluGst}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.vendorInvoiceAmount}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.vendorCreditAmount}"></td> 
+      <td style="border: 1px solid black;border-collapse: collapse;text-align: center" th:text="${prod.vendorDebitAmount}"></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div>
+Regards
+</div>
+<span style="color: #464e97;font-size: 1.6rem ;font-weight:bolder">Pick</span><span style="color: #52ef3f;font-size: 1.6rem ;font-weight:bolder" >Drop</span>

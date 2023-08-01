@@ -1,0 +1,58 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<div style="font-size: 16px;font-weight: bolder">
+Hello Team,
+</div>
+<br>
+<div>
+Please find below the transporter delivery details for the week starting <a style="font-size: 14px;font-weight: bold" th:text="${startDate}"></a> till  <a style="font-size: 14px;font-weight: bold" th:text="${endDate}"></a>
+</div>
+<br>
+<div>
+Total Deliveries : <span style="font-size: 13px;font-weight: bolder" th:text="${totalDeliveries}"></span>
+</div>
+<br>
+<div>
+Total Amount to be collected: <span style="font-size: 13px;font-weight: bolder" th:text="${totalAmount}"></span>
+</div>
+<br>
+<div>
+Total online Payment: <span style="font-size: 13px;font-weight: bolder" th:text="${totalOnlineAmount}"></span>
+</div>
+<br>
+<div>
+Total Distance : <span style="font-size: 13px;font-weight: bolder" th:text="${totalDistance}"></span>
+</div>
+<br>
+<table style="border: 1px solid black;">
+  <thead >
+    <tr>
+      <th  style="border: 1px solid black;border-collapse: collapse;" >S No</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;" >Name</th>
+      <th  style="border: 1px solid black;border-collapse: collapse;" >City</th>
+       <th  style="border: 1px solid black;border-collapse: collapse;">Number of Deliveries</th>
+        <th  style="border: 1px solid black;border-collapse: collapse;">Amount to be collected</th>
+        <th  style="border: 1px solid black;border-collapse: collapse;">Online Payment</th>
+         <th  style="border: 1px solid black;border-collapse: collapse;">Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr th:each="prod: ${deliveryDetails}">
+      <td style="border: 1px solid black;border-collapse: collapse;" th:text="${prodStat.index}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;" th:text="${prod.firstName}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;" th:text="${prod.city}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;" th:text="${prod.totalCount}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;" th:text="${prod.collectCustomerAmount}"></td>
+      <td style="border: 1px solid black;border-collapse: collapse;" th:text="${prod.onlinePayment}"></td> 
+      <td style="border: 1px solid black;border-collapse: collapse;" th:text="${prod.riderTravelDistance}"></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div>
+Regards
+</div>
+<span style="color: #464e97;font-size: 1.6rem ;font-weight:bolder">Pick</span><span style="color: #52ef3f;font-size: 1.6rem ;font-weight:bolder" >Drop</span>
