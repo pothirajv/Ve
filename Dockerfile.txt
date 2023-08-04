@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8082
+ADD target/vedagram.war vedagram.war
+ENTRYPOINT ["java","-jar","/vedagram.war"]
