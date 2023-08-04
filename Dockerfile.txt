@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/vedagram.war vedagram.war
+ADD /var/lib/jenkins/workspace/new/Dockerfile/vedagram.war vedagram.war
 ENTRYPOINT ["java","-jar","/vedagram.war"]
